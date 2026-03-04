@@ -33,6 +33,7 @@ private Double price ;
 @ManyToOne
 @JoinColumn(name= "bill_id",nullable =  false)
 private Bill bill;
+
 @ManyToOne
 @JoinColumn(name = "product_id",nullable =  false)
 private Product product;

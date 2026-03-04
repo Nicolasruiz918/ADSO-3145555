@@ -40,4 +40,5 @@ public class Bill {
 
     @OneToMany(mappedBy = "bill", cascade = CascadeType.ALL)
     private List<BillDetail> details;
+    
 }

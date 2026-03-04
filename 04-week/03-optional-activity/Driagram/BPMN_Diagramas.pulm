@@ -1,0 +1,176 @@
+@startuml BPMN_Flujo_Simple_Cafetin
+!theme plain
+
+title Diagrama de Flujo Simplificado — Sistema de Pedidos Cafetín SENA
+
+start
+
+:Mostrar catálogo de productos\n(nombre, precio, foto, stock);
+
+repeat
+  :Seleccionar producto y cantidad;
+
+  if (¿Hay stock disponible?) then (Sí)
+    :Agregar producto al carrito;
+    :Actualizar total automáticamente;
+  else (No)
+    :Mostrar mensaje "Producto sin stock";
+  endif
+
+repeat while (¿Desea agregar más productos?) is (Sí)
+
+if (¿Carrito vacío?) then (Sí)
+  :Mostrar mensaje "El carrito está vacío";
+  stop
+else (No)
+endif
+
+:Mostrar resumen del pedido\n(productos, cantidad, total);
+
+if (¿Confirmar pedido?) then (Sí)
+  :Generar número único de pedido;
+  :Guardar pedido con fecha y hora;
+  :Asignar estado "Pendiente";
+  :Notificar al personal del cafetín;
+else (No)
+  stop
+endif
+
+:Personal visualiza pedido en lista;
+
+:Personal actualiza estado a "En preparación";
+
+:Personal prepara el pedido en cocina;
+
+:Personal actualiza estado a "Listo";
+
+:Notificar al estudiante - Pedido listo;
+
+:Estudiante recibe el pedido;
+
+:Personal actualiza estado a "Entregado";
+
+:Mostrar confirmación de entrega;
+
+stop
+
+@enduml
+
+' ════════════════════════════════════════════════════════════════════
+' DIAGRAMA BPMN TÉCNICO DETALLADO (CON REQUISITOS Y HISTORIAS)
+' ════════════════════════════════════════════════════════════════════
+
+@startuml BPMN_Tecnico_Cafetin
+!theme plain
+
+title BPMN TÉCNICO — Sistema de Pedidos Cafetín SENA
+|ESTUDIANTE|d
+start
+
+:[RF-1] Visualizar catálogo de productos disponibles;
+note right
+  Sprint 1
+  HU-1: Como Aprendiz,
+  quiero ver los productos
+end note
+
+:[RF-2] Agregar productos al carrito de compras;
+note right
+  Sprint 2
+  HU-2: Organizar mi pedido
+end note
+
+:[RF-3] Revisar / Eliminar items del carrito;
+
+if (¿Confirmar pedido?) then (Sí)
+  :[RF-4] Confirmar solicitud de pedido;
+else (No)
+  :Volver a seleccionar productos;
+  note right : Bucle de compra
+  :[RF-2] Agregar productos al carrito de compras;
+  :[RF-3] Revisar / Eliminar items del carrito;
+  :[RF-4] Confirmar solicitud de pedido;
+endif
+
+|SISTEMA WEB|
+
+:[RN-1][RN-2] Validar integridad del carrito de compras;
+note right
+  RN-1: No confirmar si vacío
+  RN-2: Mínimo un producto
+end note
+
+if (¿Carrito válido?) then (Válido)
+
+  :[RF-5] Registrar pedido en base de datos;
+  note right : persist() → PostgreSQL
+
+  :[RN-3] Asignar estado inicial ★ PENDIENTE;
+  note right : RN-3: Todo pedido inicia en estado PENDIENTE
+
+  :Notificar al personal del cafetín — nuevo pedido;
+
+else (No válido)
+  :[ERROR RN-1] Carrito vacío: No se puede confirmar el pedido;
+  note right : Mostrar mensaje de error al estudiante
+  stop
+endif
+
+|PERSONAL CAFETÍN|
+
+:[RF-6] Visualizar lista de pedidos activos — vista interna;
+note right
+  Sprint 4 · HU-4:
+  Como personal, quiero ver la lista de pedidos
+end note
+
+:[RF-7][RN-4] Cambiar estado: ★ EN PREPARACIÓN;
+note right
+  RN-4: Solo el personal puede cambiar el estado
+end note
+
+|SISTEMA WEB|
+:[RF-5 update] Actualizar estado en base de datos;
+note right : UPDATE pedidos SET estado
+
+|PERSONAL CAFETÍN|
+
+:[RF-7][RN-4] Cambiar estado: ★ LISTO;
+
+if (¿Estado previo = LISTO?)[RN-5] then (Sí)
+
+  :[RF-7][RN-5] Cambiar estado: ★ ENTREGADO;
+  note right
+    HU-5: Como personal,
+    quiero cambiar el estado
+    para reflejar el progreso
+  end note
+
+  |SISTEMA WEB|
+  :[RF-5 update] Actualizar estado final en base de datos;
+  note right : UPDATE pedidos SET estado = 'ENTREGADO'
+
+else (No)
+  :[ERROR RN-5] Pedido no puede marcarse como ENTREGADO sin estado LISTO;
+  note right : Restricción de negocio RN-5 bloqueada por sistema
+  |PERSONAL CAFETÍN|
+  :[RF-7][RN-4] Cambiar estado: ★ LISTO;
+  :[RF-7][RN-5] Cambiar estado: ★ ENTREGADO;
+  |SISTEMA WEB|
+  :[RF-5 update] Actualizar estado final en base de datos;
+endif
+
+end
+
+legend right
+  |= ELEMENTO |= DESCRIPCIÓN |
+  | ● Inicio/Fin | Eventos del proceso |
+  | Tarea azul | Acción del Estudiante |
+  | Tarea cyan | Proceso del Sistema |
+  | Tarea verde | Acción del Personal |
+  | ◆ Gateway | Punto de decisión XOR |
+  | Error | Excepción / Regla bloqueada |
+  | Nota | RF / RN / HU / Sprint |
+endlegend
+
+@enduml

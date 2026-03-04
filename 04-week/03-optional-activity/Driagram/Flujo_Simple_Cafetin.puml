@@ -1,0 +1,57 @@
+@startuml Flujo_Simple_Cafetin
+!theme plain
+
+title Diagrama de Flujo Simplificado - Sistema de Pedidos Cafetín SENA
+
+start
+
+:Mostrar catálogo de productos\n(nombre, precio, foto, stock);
+
+repeat
+  :Seleccionar producto y cantidad;
+
+  if (¿Hay stock disponible?) then (Sí)
+    :Agregar producto al carrito;
+    :Actualizar total automáticamente;
+  else (No)
+    :Mostrar mensaje "Producto sin stock";
+  endif
+
+repeat while (¿Desea agregar más productos?) is (Sí)
+
+if (¿Carrito vacío?) then (Sí)
+  :Mostrar mensaje "El carrito está vacío";
+  stop
+else (No)
+endif
+
+:Mostrar resumen del pedido\n(productos, cantidad, total);
+
+if (¿Confirmar pedido?) then (Sí)
+  :Generar número único de pedido;
+  :Guardar pedido con fecha y hora;
+  :Asignar estado "Pendiente";
+  :Notificar al personal del cafetín;
+else (No)
+  stop
+endif
+
+:Personal visualiza pedido en lista;
+
+:Personal actualiza estado a "En preparación";
+
+:Personal prepara el pedido en cocina;
+
+:Personal actualiza estado a "Listo";
+
+:Notificar al estudiante - Pedido listo;
+
+:Aprendiz  recibe el pedido;
+
+:Personal actualiza estado a "Entregado";
+
+:Mostrar confirmación de entrega;
+
+stop
+
+@enduml
