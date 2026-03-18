@@ -1,0 +1,36 @@
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="nicolas">
+        <createTable tableName="persona">
+            <column name="id" type="INT" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="nombre" type="VARCHAR(100)"/>
+        </createTable>
+    </changeSet>
+<changeSet id="2" author="nicolas">
+    <addColumn tableName="persona">
+        <column name="email" type="VARCHAR(100)"/>
+    </addColumn>
+</changeSet>
+<changeSet id="3" author="nicolas">
+    <insert tableName="persona">
+        <column name="nombre" value="Carlos"/>
+        <column name="email" value="carlos@gmail.com"/>
+    </insert>
+
+    <insert tableName="persona">
+        <column name="nombre" value="Ana"/>
+        <column name="email" value="ana@gmail.com"/>
+    </insert>
+
+    <insert tableName="persona">
+        <column name="nombre" value="Luis"/>
+        <column name="email" value="luis@gmail.com"/>
+    </insert>
+</changeSet>
+</databaseChangeLog>
