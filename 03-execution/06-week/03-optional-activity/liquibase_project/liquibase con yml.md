@@ -136,7 +136,7 @@ docker run --rm -v %cd%:/liquibase/changelog -w /liquibase/changelog liquibase/l
 # 9. Verificar en PostgreSQL
 
 ```bash
-docker exec -it postgres-container psql -U user-d mi_base
+docker exec -it postgres-container psql -U user mi_base
 ```
 
 ```sql
