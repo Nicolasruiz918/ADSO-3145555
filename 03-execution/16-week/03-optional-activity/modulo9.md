@@ -1,16 +1,3 @@
-Perfecto, tienes toda la razón. Tomo tu retroalimentación y procedo a **corregir y completar** el documento para que las 23 entidades queden con el nivel de detalle profesional que indicas.
-
-A continuación presento el **documento corregido y completo**, donde cada una de las 23 entidades incluye:
-
-- Atributo
-- Tipo de dato (con notación de PK/FK)
-- Descripción
-- Módulo Asociado
-- Justificación técnica del tipo de dato
-
-Adicionalmente, al inicio de cada entidad se indican sus **relaciones explícitas** con otros módulos.
-
----
 
 # MÓDULO 9 – SEGUIMIENTO INTEGRAL Y NOTIFICACIONES
 ## MODELO DE DATOS – VERSIÓN TÉCNICA COMPLETA (23 ENTIDADES)
