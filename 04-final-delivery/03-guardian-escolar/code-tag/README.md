@@ -15,6 +15,7 @@ Si falta alguno, agregue la fila. Si uno está vacío o ya no se usa, indíquelo
 | Backend | [GPS-Guardian-Escolar/Backend-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/Backend-Guardian-Escolar) | Public / Público | Pending / Pendiente | `1022058` | Pending `final-delivery` release | Pending `final-delivery` release |
 | Database | [GPS-Guardian-Escolar/DB-Structure-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/DB-Structure-Guardian-Escolar) | Public / Público | Pending / Pendiente | `9278b1d` | Pending `final-delivery` release | Pending `final-delivery` release |
 | Infrastructure | [GPS-Guardian-Escolar/Docker-Infra-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/Docker-Infra-Guardian-Escolar) | Public / Público | Pending / Pendiente | `131e989` | Pending `final-delivery` release | Pending `final-delivery` release |
+| Documentation | [GPS-Guardian-Escolar/Docs-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/Docs-Guardian-Escolar) | Public / Público | Pending / Pendiente | Pending `main` finalization and tag | Pending `final-delivery` release | Pending `final-delivery` release |
 | Web frontend | [GPS-Guardian-Escolar/Fronted-GuardianEscolar-](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-) | Public / Público | Pending / Pendiente | `3d9f59f` | Pending `final-delivery` release | Pending `final-delivery` release |
 
 Before making a repository public, remove `.env` files and change any password, token or key that was ever committed.
