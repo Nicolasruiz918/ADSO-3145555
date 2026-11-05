@@ -78,8 +78,8 @@ Authors are the instructors and the apprentices listed in `team-roster.md`. Each
 | Origin / Origen | ☒ Original ☐ Derived work / Obra derivada |
 | If derived, base work / Si es derivada, obra de base | |
 | Type of work / Clase de obra | ☐ Individual ☒ In collaboration / En colaboración ☐ Collective / Colectiva ☐ Anonymous / Anónima ☐ Pseudonymous / Seudónima ☐ Posthumous / Póstuma |
-| Publication / Publicación | ☐ Unpublished / Inédita ☒ Published / Publicada |
-| If published, date and place / Si está publicada, fecha y lugar | Public repositories and the deployed web application; the training center confirms the final legal classification. / Repositorios públicos y aplicación web desplegada; el centro de formación confirma la clasificación legal final. |
+| Publication / Publicación | ☒ Unpublished / Inédita ☐ Published / Publicada |
+| If published, date and place / Si está publicada, fecha y lugar | Not applicable for the unpublished-work declaration; the training center confirms the final legal classification. / No aplica para la declaración de obra inédita; el centro de formación confirma la clasificación legal final. |
 
 Software is treated as unpublished unless the rights holder states otherwise (art. 4). A public repository may count as publication: the team records it here, and the Centro decides the final declaration.
 

@@ -12,16 +12,16 @@ Los aprendices completan su rol, por ejemplo backend, frontend, base de datos, Q
 
 | Full name / Nombre completo | Role / Rol | Area / Área | Contribution / Aporte | Author / Autor |
 |---|---|---|---|---|
-| JESUS ARIEL GONZALEZ BONILLA | Instructor | Desarrollo, Diseño, Evaluación de requisitos, Inducción, Investigación | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| CARLOS FABIAN MARTINEZ MORA | Instructor | Inducción | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| CARLOS JULIO CADENA SARASTY | Instructor | Desarrollo, Diseño, Establecimiento de requisitos, Evaluación de requisitos, Herramientas informáticas, Inducción | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| JAVIER HUMBERTO PINTO DIAZ | Instructor | Evaluación de requisitos, Herramientas informáticas | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| KAROL DANIELA CORREA TRUJILLO | Instructor | Establecimiento de requisitos, Evaluación de requisitos, Inducción | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| JOSE DE JESUS MOTTA VARGAS | Instructor | Desarrollo, Establecimiento de requisitos, Evaluación de requisitos, Herramientas informáticas, Propuesta técnica | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| FERNELLY CARVAJAL SILVA | Instructor | To confirm / Por confirmar | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| EDDIER YAIR LIBERATO CUENCA | Instructor | To confirm / Por confirmar | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| JHON WILLIAN CORREDOR ARAUJO | Instructor | Diseño, Establecimiento de requisitos, Evaluación de requisitos | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
-| ANDRES MORENO COLLAZOS | Instructor | Diseño, Evaluación de requisitos, Inducción | ☐ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
+| JESUS ARIEL GONZALEZ BONILLA | Instructor | Desarrollo, Diseño, Evaluación de requisitos, Inducción, Investigación | ☑ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
+| CARLOS FABIAN MARTINEZ MORA | Instructor | Inducción | ☐ Direct / Directo ☑ Indirect / Indirecto | Yes / Sí |
+| CARLOS JULIO CADENA SARASTY | Instructor | Desarrollo, Diseño, Establecimiento de requisitos, Evaluación de requisitos, Herramientas informáticas, Inducción | ☑ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
+| JAVIER HUMBERTO PINTO DIAZ | Instructor | Evaluación de requisitos, Herramientas informáticas | ☐ Direct / Directo ☑ Indirect / Indirecto | Yes / Sí |
+| KAROL DANIELA CORREA TRUJILLO | Instructor | Establecimiento de requisitos, Evaluación de requisitos, Inducción | ☐ Direct / Directo ☑ Indirect / Indirecto | Yes / Sí |
+| JOSE DE JESUS MOTTA VARGAS | Instructor | Desarrollo, Establecimiento de requisitos, Evaluación de requisitos, Herramientas informáticas, Propuesta técnica | ☑ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
+| FERNELLY CARVAJAL SILVA | Instructor | To confirm / Por confirmar | ☐ Direct / Directo ☑ Indirect / Indirecto | Yes / Sí |
+| EDDIER YAIR LIBERATO CUENCA | Instructor | To confirm / Por confirmar | ☐ Direct / Directo ☑ Indirect / Indirecto | Yes / Sí |
+| JHON WILLIAN CORREDOR ARAUJO | Instructor | Diseño, Establecimiento de requisitos, Evaluación de requisitos | ☑ Direct / Directo ☐ Indirect / Indirecto | Yes / Sí |
+| ANDRES MORENO COLLAZOS | Instructor | Diseño, Evaluación de requisitos, Inducción | ☐ Direct / Directo ☑ Indirect / Indirecto | Yes / Sí |
 
 ## Apprentices / Aprendices
 
