@@ -12,10 +12,10 @@ Si falta alguno, agregue la fila. Si uno está vacío o ya no se usa, indíquelo
 
 | Component / Componente | Repository / Repositorio | Status / Estado | Access for `ariel5253` / Acceso de `ariel5253` | Commit of tag `final-delivery-2026` / Commit del tag | Main version ZIP / ZIP versión main | Full export ZIP / ZIP completo |
 |---|---|---|---|---|---|---|
-| Backend | [GPS-Guardian-Escolar/Backend-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/Backend-Guardian-Escolar) | Public / Público | **Add / Agregar** | | | |
-| Database | [GPS-Guardian-Escolar/DB-Structure-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/DB-Structure-Guardian-Escolar) | Public / Público | **Add / Agregar** | | | |
-| Infrastructure | [GPS-Guardian-Escolar/Docker-Infra-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/Docker-Infra-Guardian-Escolar) | Public / Público | **Add / Agregar** | | | |
-| Web frontend | [GPS-Guardian-Escolar/Fronted-GuardianEscolar-](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-) | Public / Público | **Add / Agregar** | | | |
+| Backend | [GPS-Guardian-Escolar/Backend-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/Backend-Guardian-Escolar) | Public / Público | Pending / Pendiente | `1022058` | Pending `final-delivery` release | Pending `final-delivery` release |
+| Database | [GPS-Guardian-Escolar/DB-Structure-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/DB-Structure-Guardian-Escolar) | Public / Público | Pending / Pendiente | `9278b1d` | Pending `final-delivery` release | Pending `final-delivery` release |
+| Infrastructure | [GPS-Guardian-Escolar/Docker-Infra-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/Docker-Infra-Guardian-Escolar) | Public / Público | Pending / Pendiente | `131e989` | Pending `final-delivery` release | Pending `final-delivery` release |
+| Web frontend | [GPS-Guardian-Escolar/Fronted-GuardianEscolar-](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-) | Public / Público | Pending / Pendiente | `3d9f59f` | Pending `final-delivery` release | Pending `final-delivery` release |
 
 Before making a repository public, remove `.env` files and change any password, token or key that was ever committed.
 
@@ -34,10 +34,12 @@ La cuenta del instructor, `ariel5253`, necesita acceso de escritura en cada repo
 
 ## Where the ZIP files live / Dónde quedan los ZIP
 
-The ZIP files do not go in this folder. They are attached to a GitHub Release in the fork of the person who delivers, named `final-delivery`, and linked in the table above.
+The ZIP files do not go in this folder. They are attached to the `final-delivery` GitHub Release in [Nicolasruiz918/ADSO-3145555](https://github.com/Nicolasruiz918/ADSO-3145555/releases/tag/final-delivery), and linked in the table above once the release is published.
 
 Los ZIP no van en esta carpeta. Se adjuntan a un Release de GitHub llamado `final-delivery` en el fork de quien entrega, y se enlazan en la tabla de arriba.
 
 ## Integrity / Integridad
 
 Copy the SHA-256 of every ZIP into [`SHA256SUMS.txt`](SHA256SUMS.txt). / Copie el SHA-256 de cada ZIP en ese archivo.
+
+The Android APK is larger than 50 MB, so it is distributed through the project README/Drive evidence link rather than stored in this repository folder. / La APK Android supera los 50 MB, por lo que se distribuye mediante el enlace de evidencia en Drive del README del proyecto y no se almacena en esta carpeta.

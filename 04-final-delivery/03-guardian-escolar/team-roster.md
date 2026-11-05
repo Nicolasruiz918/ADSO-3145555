@@ -27,6 +27,10 @@ Los aprendices completan su rol, por ejemplo backend, frontend, base de datos, Q
 
 | Full name / Nombre completo | Doc. type / Tipo | Doc. number / Número | Ficha | GitHub user / Usuario | Role in the project / Rol en el proyecto | Author / Autor |
 |---|---|---|---|---|---|---|
-| KEVIN ANDREY CULMA GOMEZ | TI | 1130024165 | 3145555 | Andrey31072 | | Yes / Sí |
-| NICOLAS ESTID RUIZ SASTOQUE | CC | 1029144515 | 3145555 | Nicolasruiz918 | | Yes / Sí |
-| JHON CAMILO SUAZA SANCHEZ | CC | 1077230121 | 3145555 | JhonCamiloSuaza | | Yes / Sí |
+| KEVIN ANDREY CULMA GOMEZ | TI | 1130024165 | 3145555 | Andrey31072 | Documentation, QA and frontend support / Documentación, QA y apoyo frontend | Yes / Sí |
+| NICOLAS ESTID RUIZ SASTOQUE | CC | 1029144515 | 3145555 | Nicolasruiz918 | Backend, infrastructure, integration and release coordination / Backend, infraestructura, integración y coordinación de entregas | Yes / Sí |
+| JHON CAMILO SUAZA SANCHEZ | CC | 1077230121 | 3145555 | JhonCamiloSuaza | Frontend, tracking and user interface / Frontend, seguimiento e interfaz de usuario | Yes / Sí |
+
+The roles above summarize the repository contributions visible in the project history and must be confirmed by the corresponding apprentice before the final submission.
+
+Los roles anteriores resumen los aportes visibles en el historial del proyecto y deben ser confirmados por cada aprendiz antes de la entrega final.

@@ -63,23 +63,23 @@ Authors are the instructors and the apprentices listed in `team-roster.md`. Each
 | Field / Campo | Value / Valor |
 |---|---|
 | Title / Título de la obra | Guardián Escolar |
-| Year of creation / Año de creación | |
+| Year of creation / Año de creación | 2026 |
 | Country of origin / País de origen | Colombia |
 | Version registered / Versión a registrar | `final-delivery-2026` |
-| Short description of its functions / Breve descripción de sus funciones | |
-| What sets it apart from similar software / Qué la diferencia de obras similares | **Required: a similar title exists in the other ficha / Obligatorio: existe un título similar en la otra ficha** |
-| Programming languages / Lenguajes | |
-| Type: web, mobile, desktop, device / Tipo: web, móvil, escritorio, dispositivo | |
+| Short description of its functions / Breve descripción de sus funciones | Web and Android software that allows guardians to register students, link student devices through QR or a validated manual code, configure routes and safe zones, monitor school-trip locations, receive notifications and consult trip history. / Software web y Android que permite registrar estudiantes, vincular dispositivos mediante QR o código manual validado, configurar rutas y zonas seguras, consultar la ubicación de trayectos escolares, recibir notificaciones y revisar el historial. |
+| What sets it apart from similar software / Qué la diferencia de obras similares | It combines guardian-managed student-device linking, school-trip tracking, safe-zone and route configuration, parent-controlled trip completion and web/mobile access in one project. / Combina la vinculación del dispositivo del estudiante administrada por el acudiente, el seguimiento del trayecto escolar, la configuración de rutas y zonas seguras, la finalización controlada por el padre o acudiente y el acceso web/móvil en un solo proyecto. |
+| Programming languages / Lenguajes | Java, JavaScript, TypeScript, SQL, HTML and CSS |
+| Type: web, mobile, desktop, device / Tipo: web, móvil, escritorio, dispositivo | Web application, Android mobile application and backend service / Aplicación web, aplicación móvil Android y servicio backend |
 
 ## 6. Declarations / Declaraciones (art. 4 y art. 5, num. 5 y 6)
 
 | Declaration / Declaración | Option / Opción |
 |---|---|
-| Origin / Origen | ☐ Original ☐ Derived work / Obra derivada |
+| Origin / Origen | ☒ Original ☐ Derived work / Obra derivada |
 | If derived, base work / Si es derivada, obra de base | |
-| Type of work / Clase de obra | ☐ Individual ☐ In collaboration / En colaboración ☐ Collective / Colectiva ☐ Anonymous / Anónima ☐ Pseudonymous / Seudónima ☐ Posthumous / Póstuma |
-| Publication / Publicación | ☐ Unpublished / Inédita ☐ Published / Publicada |
-| If published, date and place / Si está publicada, fecha y lugar | |
+| Type of work / Clase de obra | ☐ Individual ☒ In collaboration / En colaboración ☐ Collective / Colectiva ☐ Anonymous / Anónima ☐ Pseudonymous / Seudónima ☐ Posthumous / Póstuma |
+| Publication / Publicación | ☐ Unpublished / Inédita ☒ Published / Publicada |
+| If published, date and place / Si está publicada, fecha y lugar | Public repositories and the deployed web application; the training center confirms the final legal classification. / Repositorios públicos y aplicación web desplegada; el centro de formación confirma la clasificación legal final. |
 
 Software is treated as unpublished unless the rights holder states otherwise (art. 4). A public repository may count as publication: the team records it here, and the Centro decides the final declaration.
 
@@ -103,7 +103,12 @@ Relacione código, librerías, modelos, imágenes o datos que el equipo no creó
 
 | Component / Componente | Author or source / Autor o fuente | License / Licencia | Where it is used / Dónde se usa |
 |---|---|---|---|
-| | | | |
+| Spring Boot and Spring Security | VMware / Spring | Apache License 2.0 | Backend API, authentication and authorization |
+| Expo SDK and React Native | Expo / Meta | MIT and project-specific notices | Android application and web frontend |
+| PostgreSQL | PostgreSQL Global Development Group | PostgreSQL License | Application database |
+| Liquibase Community | Liquibase | Apache License 2.0 | Database migrations and rollbacks |
+| Docker and Docker Compose | Docker | Apache License 2.0 / applicable Docker terms | Local and reproducible infrastructure |
+| Google Maps Platform | Google | Google Maps Platform Terms of Service | Map display and route visualization |
 
 ## 9. Private data / Datos privados
 
@@ -115,5 +120,5 @@ Relacione código, librerías, modelos, imágenes o datos que el equipo no creó
 
 - [ ] The information is true and the names match the official ID documents. / La información es veraz y los nombres coinciden con los documentos de identidad.
 - [ ] The listed authors are the people who created the software. / Los autores relacionados son quienes crearon el software.
-- [ ] Third-party components are declared. / Los componentes de terceros están declarados.
+- [ ] Third-party components are declared and their final licenses are verified. / Los componentes de terceros están declarados y sus licencias finales fueron verificadas.
 - [ ] No passwords, tokens or keys are included. / No se incluyen contraseñas, tokens ni llaves.

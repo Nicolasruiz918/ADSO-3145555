@@ -14,17 +14,17 @@ Final delivery of the training project / Entrega final del proyecto formativo.
 | Process / Proceso | Completion of the technologist taught stage / Finalización de la etapa lectiva del tecnólogo |
 | Research seedbed / Semillero de investigación | Developers & Geeks |
 | Delivery version / Versión entregada | `final-delivery-2026` |
-| Delivery date / Fecha de entrega | |
-| Delivered by / Entregado por | |
+| Delivery date / Fecha de entrega | 2026-11-04 |
+| Delivered by / Entregado por | Nicolas Estid Ruiz Sastoque (`Nicolasruiz918`) |
 
 ## Summary / Resumen
 
-- **Problem it solves / Problema que resuelve:**
-- **Target users / Usuarios:**
-- **Main features / Funciones principales:**
-- **Technology stack / Tecnologías:**
-- **Production URL / URL en producción:**
-- **Demo credentials / Credenciales de prueba:** do not write real passwords here / no escriba contraseñas reales aquí
+- **Problem it solves / Problema que resuelve:** Provides guardians with a web and Android solution to register students, link a student device by QR, define routes and safe zones, and monitor school trips with location and notification information.
+- **Target users / Usuarios:** Guardians, students, administrators and the project team responsible for operating the school-trip monitoring service.
+- **Main features / Funciones principales:** Account registration and sign-in with email verification and two-factor confirmation; QR/manual student-device linking; student and emergency-contact management; route and safe-zone management; trip tracking; notifications and history; parent-controlled trip completion; Android APK distribution.
+- **Technology stack / Tecnologías:** React Native, Expo and React Native Web; Java 17 and Spring Boot; PostgreSQL and Liquibase; Docker Compose; GitHub Actions; Render; Google Maps integrations.
+- **Production URL / URL en producción:** https://gps-guardian-escolar-frontend.onrender.com
+- **Demo credentials / Credenciales de prueba:** Use the credentials supplied privately during the demonstration. No real passwords are stored in this repository.
 
 ## Team members / Integrantes
 
@@ -56,7 +56,7 @@ Autorización de datos: al marcar la casilla, el integrante confirma sus datos y
 | [`08-manuals/`](08-manuals/) | Manuals / Manuales | ☐ |
 | [`09-project-article/`](09-project-article/) | Project article / Artículo del proyecto | ☐ |
 | [`10-videos/`](10-videos/) | Videos / Videos | ☐ |
-| [`code-tag/`](code-tag/) | Repository links, tags and ZIP files / Enlaces, tags y ZIP | ☐ |
+| [`code-tag/`](code-tag/) | Repository links, tags and ZIP files / Enlaces, tags y ZIP | ☐ Release pending |
 | [`team-roster.md`](team-roster.md) | Team and roles / Equipo y roles | ☐ |
 | [`software-registration.md`](software-registration.md) | Software registration data / Datos para registro de software | ☐ |
 
