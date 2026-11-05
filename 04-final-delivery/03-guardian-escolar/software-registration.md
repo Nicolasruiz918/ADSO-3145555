@@ -38,9 +38,9 @@ Authors are the instructors and the apprentices listed in `team-roster.md`. Each
 | EDDIER YAIR LIBERATO CUENCA | | Kept privately / En custodia | | Instructor: see `team-roster.md` / ver `team-roster.md` |
 | JHON WILLIAN CORREDOR ARAUJO | | Kept privately / En custodia | | Instructor: see `team-roster.md` / ver `team-roster.md` |
 | ANDRES MORENO COLLAZOS | | Kept privately / En custodia | | Instructor: see `team-roster.md` / ver `team-roster.md` |
-| KEVIN ANDREY CULMA GOMEZ | TI | 1130024165 | 3145555 | |
-| NICOLAS ESTID RUIZ SASTOQUE | CC | 1029144515 | 3145555 | |
-| JHON CAMILO SUAZA SANCHEZ | CC | 1077230121 | 3145555 | |
+| KEVIN ANDREY CULMA GOMEZ | TI | 1130024165 | 3145555 | Documentation, QA, frontend support and delivery evidence / Documentación, QA, apoyo frontend y evidencias de entrega |
+| NICOLAS ESTID RUIZ SASTOQUE | CC | 1029144515 | 3145555 | Backend, frontend, database, infrastructure, integration, release coordination and delivery metadata / Backend, frontend, base de datos, infraestructura, integración, coordinación de releases y metadatos de entrega |
+| JHON CAMILO SUAZA SANCHEZ | CC | 1077230121 | 3145555 | Frontend, tracking flows, QR linking and user-interface improvements / Frontend, flujos de seguimiento, vinculación QR y mejoras de interfaz |
 
 ## 3. Producer / Productor (art. 5, num. 3)
 
