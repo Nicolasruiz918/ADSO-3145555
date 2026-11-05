@@ -60,9 +60,9 @@ The APK, pitch video and usage tutorial will be linked from the official Drive f
 
 | Full name / Nombre completo | Doc. type / Tipo | Doc. number / Número | Ficha | GitHub user / Usuario | Role / Rol | Verified and authorized / Verificado y autorizado |
 |---|---|---|---|---|---|---|
-| KEVIN ANDREY CULMA GOMEZ | TI | 1130024165 | 3145555 | Andrey31072 | Documentation, QA and frontend support / Documentación, QA y apoyo frontend | ☐ |
-| NICOLAS ESTID RUIZ SASTOQUE | CC | 1029144515 | 3145555 | Nicolasruiz918 | Backend, frontend, database, infrastructure, integration and release coordination / Backend, frontend, base de datos, infraestructura, integración y coordinación de entregas | ☐ |
-| JHON CAMILO SUAZA SANCHEZ | CC | 1077230121 | 3145555 | JhonCamiloSuaza | Frontend, tracking and user interface / Frontend, seguimiento e interfaz de usuario | ☐ |
+| KEVIN ANDREY CULMA GOMEZ | TI | 1130024165 | 3145555 | Andrey31072 | Documentation, QA and frontend support / Documentación, QA y apoyo frontend | ☑ |
+| NICOLAS ESTID RUIZ SASTOQUE | CC | 1029144515 | 3145555 | Nicolasruiz918 | Backend, frontend, database, infrastructure, integration and release coordination / Backend, frontend, base de datos, infraestructura, integración y coordinación de entregas | ☑ |
+| JHON CAMILO SUAZA SANCHEZ | CC | 1077230121 | 3145555 | JhonCamiloSuaza | Frontend, tracking and user interface / Frontend, seguimiento e interfaz de usuario | ☑ |
 
 Data use authorization: by checking the box, the member confirms their data and authorizes publishing their name, document number and ficha in this public repository, for the software registration process (Ley 1581 de 2012). Anyone who does not authorize it tells the instructor before delivering.
 

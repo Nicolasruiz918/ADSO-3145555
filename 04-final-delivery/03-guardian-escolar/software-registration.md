@@ -17,10 +17,10 @@ Llene todos los campos vacíos. Sigue el Decreto 1360 de 1989.
 
 | Field / Campo | Value / Valor |
 |---|---|
-| Full name / Nombre |  |
-| ID document / Identificación | |
-| Acts on own behalf or as representative / Actúa en nombre propio o como representante | ☐ Own behalf / Nombre propio ☐ Representative / Representante |
-| Proof of representation / Prueba de representación, si aplica | |
+| Full name / Nombre | NICOLAS ESTID RUIZ SASTOQUE |
+| ID document / Identificación | CC 1029144515 |
+| Acts on own behalf or as representative / Actúa en nombre propio o como representante | ☐ Own behalf / Nombre propio ☒ Representative / Representante del equipo |
+| Proof of representation / Prueba de representación, si aplica | Representative designated by the project team / Representante designado por el equipo del proyecto |
 
 ## 2. Authors / Autores (art. 5, num. 2)
 
@@ -118,7 +118,7 @@ Relacione código, librerías, modelos, imágenes o datos que el equipo no creó
 
 ## 10. Team declaration / Declaración del equipo
 
-- [ ] The information is true and the names match the official ID documents. / La información es veraz y los nombres coinciden con los documentos de identidad.
-- [ ] The listed authors are the people who created the software. / Los autores relacionados son quienes crearon el software.
-- [ ] Third-party components are declared and their final licenses are verified. / Los componentes de terceros están declarados y sus licencias finales fueron verificadas.
-- [ ] No passwords, tokens or keys are included. / No se incluyen contraseñas, tokens ni llaves.
+- [x] The information is true and the names match the official ID documents. / La información es veraz y los nombres coinciden con los documentos de identidad.
+- [x] The listed authors are the people who created the software. / Los autores relacionados son quienes crearon el software.
+- [x] Third-party components are declared and their final licenses are verified. / Los componentes de terceros están declarados y sus licencias finales fueron verificadas.
+- [x] No passwords, tokens or keys are included. / No se incluyen contraseñas, tokens ni llaves.
