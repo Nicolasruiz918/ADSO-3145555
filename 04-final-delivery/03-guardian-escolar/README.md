@@ -16,15 +16,41 @@ Final delivery of the training project / Entrega final del proyecto formativo.
 | Delivery version / Versión entregada | `final-delivery-2026` |
 | Delivery date / Fecha de entrega | 2026-11-04 |
 | Delivered by / Entregado por | Nicolas Estid Ruiz Sastoque (`Nicolasruiz918`) |
+| Web production URL / URL web de producción | [GPS Guardian Escolar](https://gps-guardian-escolar-frontend.onrender.com) |
+| Backend production URL / URL backend de producción | [GPS Guardian Escolar API](https://gps-guardian-escolar-backend.onrender.com) |
+| API health endpoint / Endpoint de salud | `https://gps-guardian-escolar-backend.onrender.com/api/health` — verify availability before final submission / verificar disponibilidad antes de la entrega final |
+| Android APK / APK Android | Pending Drive upload; the APK is larger than 50 MB / Pendiente de subir a Drive; la APK supera 50 MB |
+| Video 1 — Advertising pitch / Pitch publicitario | Pending link in `10-videos/README.md` / Pendiente de enlace en `10-videos/README.md` |
+| Video 2 — Short usage tutorial / Tutorial corto de uso | Pending link in `10-videos/README.md` / Pendiente de enlace en `10-videos/README.md` |
+| Official Google Drive folder / Carpeta oficial de Google Drive | Pending folder creation / Pendiente de crear |
 
 ## Summary / Resumen
 
 - **Problem it solves / Problema que resuelve:** Provides guardians with a web and Android solution to register students, link a student device by QR, define routes and safe zones, and monitor school trips with location and notification information.
-- **Target users / Usuarios:** Guardians, students, administrators and the project team responsible for operating the school-trip monitoring service.
-- **Main features / Funciones principales:** Account registration and sign-in with email verification and two-factor confirmation; QR/manual student-device linking; student and emergency-contact management; route and safe-zone management; trip tracking; notifications and history; parent-controlled trip completion; Android APK distribution.
+- **Target users / Usuarios:**
+  - **Guardian / Acudiente:** registers students, manages emergency contacts, links devices, configures routes and safe zones, monitors trips and finishes a trip.
+  - **Student / Estudiante:** uses the linked device to share location during an active trip and can be identified through the QR linking flow.
+  - **Administrator / Administrador:** supervises users, students, routes, notifications, audits and operational information.
+  - **Project team / Equipo del proyecto:** maintains the web, Android, backend, database and infrastructure components.
+- **Main features / Funciones principales:**
+  - Registration, email verification, sign-in and two-factor device confirmation.
+  - QR and validated manual student-device linking.
+  - Student profiles and emergency-contact information.
+  - Route selection, route management and safe-zone configuration.
+  - Active-trip tracking, location availability, notifications and history.
+  - Parent-controlled trip completion and student access restrictions.
+  - Android APK distribution and responsive web access.
 - **Technology stack / Tecnologías:** React Native, Expo and React Native Web; Java 17 and Spring Boot; PostgreSQL and Liquibase; Docker Compose; GitHub Actions; Render; Google Maps integrations.
 - **Production URL / URL en producción:** https://gps-guardian-escolar-frontend.onrender.com
 - **Demo credentials / Credenciales de prueba:** Use the credentials supplied privately during the demonstration. No real passwords are stored in this repository.
+
+## Production and evidence links / Enlaces de producción y evidencias
+
+The web frontend is deployed on Render and uses the backend service through its configured proxy/API environment variables. The backend URL above is the public service reference; endpoint availability must be checked again immediately before submission.
+
+El frontend web está desplegado en Render y utiliza el backend mediante las variables de proxy/API configuradas. La URL anterior es la referencia pública del servicio; la disponibilidad de los endpoints debe verificarse nuevamente antes de entregar.
+
+The APK, pitch video and usage tutorial will be linked from the official Drive folder once the files are uploaded. / La APK, el pitch y el tutorial de uso se enlazarán desde la carpeta oficial de Drive cuando se suban los archivos.
 
 ## Team members / Integrantes
 
@@ -34,9 +60,9 @@ Final delivery of the training project / Entrega final del proyecto formativo.
 
 | Full name / Nombre completo | Doc. type / Tipo | Doc. number / Número | Ficha | GitHub user / Usuario | Role / Rol | Verified and authorized / Verificado y autorizado |
 |---|---|---|---|---|---|---|
-| KEVIN ANDREY CULMA GOMEZ | TI | 1130024165 | 3145555 | Andrey31072 | | ☐ |
-| NICOLAS ESTID RUIZ SASTOQUE | CC | 1029144515 | 3145555 | Nicolasruiz918 | | ☐ |
-| JHON CAMILO SUAZA SANCHEZ | CC | 1077230121 | 3145555 | JhonCamiloSuaza | | ☐ |
+| KEVIN ANDREY CULMA GOMEZ | TI | 1130024165 | 3145555 | Andrey31072 | Documentation, QA and frontend support / Documentación, QA y apoyo frontend | ☐ |
+| NICOLAS ESTID RUIZ SASTOQUE | CC | 1029144515 | 3145555 | Nicolasruiz918 | Backend, frontend, database, infrastructure, integration and release coordination / Backend, frontend, base de datos, infraestructura, integración y coordinación de entregas | ☐ |
+| JHON CAMILO SUAZA SANCHEZ | CC | 1077230121 | 3145555 | JhonCamiloSuaza | Frontend, tracking and user interface / Frontend, seguimiento e interfaz de usuario | ☐ |
 
 Data use authorization: by checking the box, the member confirms their data and authorizes publishing their name, document number and ficha in this public repository, for the software registration process (Ley 1581 de 2012). Anyone who does not authorize it tells the instructor before delivering.
 
@@ -60,6 +86,8 @@ Autorización de datos: al marcar la casilla, el integrante confirma sus datos y
 | [`team-roster.md`](team-roster.md) | Team and roles / Equipo y roles | ☐ |
 | [`software-registration.md`](software-registration.md) | Software registration data / Datos para registro de software | ☐ |
 
+The folders `01` to `10` are intentionally marked pending until the corresponding documentation is completed in `Docs-Guardian-Escolar` and copied or linked here. / Las carpetas `01` a `10` permanecen pendientes hasta que la documentación correspondiente se complete en `Docs-Guardian-Escolar` y se copie o enlace aquí.
+
 ## Large files on Google Drive / Archivos pesados en Google Drive
 
 Only files too heavy for GitHub go here, such as demo videos. Everything else stays in this folder.
@@ -68,4 +96,14 @@ Aquí solo van archivos demasiado pesados para GitHub, como videos de demostraci
 
 | File / Archivo | Size / Tamaño | Link / Enlace |
 |---|---|---|
-| | | |
+| Android APK `GPS-Guardian-Escolar-v1.0.1.apk` | More than 50 MB | Pending Drive upload / Pendiente de subir a Drive |
+| Advertising pitch | 1–2 minutes | Pending link in `10-videos/README.md` / Pendiente de enlace en `10-videos/README.md` |
+| Short usage tutorial | 3–5 minutes | Pending link in `10-videos/README.md` / Pendiente de enlace en `10-videos/README.md` |
+
+## Delivery checklist / Lista de verificación de entrega
+
+- [ ] Documentation folders `01`–`10` completed and reviewed / Carpetas `01`–`10` completadas y revisadas.
+- [ ] Docs repository promoted to `main` and tagged / Repositorio Docs promovido a `main` y etiquetado.
+- [ ] Final ZIP Release created in the `ADSO-3145555` fork / Release final creado en el fork `ADSO-3145555`.
+- [ ] APK and videos uploaded to Drive and linked above / APK y videos subidos a Drive y enlazados arriba.
+- [ ] Team authorizations and instructor access confirmed / Autorizaciones del equipo y acceso del instructor confirmados.
