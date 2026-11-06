@@ -18,6 +18,12 @@ Si falta alguno, agregue la fila. Si uno está vacío o ya no se usa, indíquelo
 | Documentation | [GPS-Guardian-Escolar/Docs-Guardian-Escolar](https://github.com/GPS-Guardian-Escolar/Docs-Guardian-Escolar) | Public / Público | Write invitation sent; pending acceptance / Invitación Write enviada; pendiente de aceptación | [`6a1b8cfced27ebbf25d3921464c61ed20856dca3`](https://github.com/GPS-Guardian-Escolar/Docs-Guardian-Escolar/commit/6a1b8cfced27ebbf25d3921464c61ed20856dca3) | [Release](https://github.com/GPS-Guardian-Escolar/Docs-Guardian-Escolar/releases/tag/final-delivery-2026) | [Code ZIP](https://github.com/GPS-Guardian-Escolar/Docs-Guardian-Escolar/releases/download/final-delivery-2026/Docs-Guardian-Escolar-final-delivery-2026-main.zip) | [Full export ZIP](https://github.com/GPS-Guardian-Escolar/Docs-Guardian-Escolar/releases/download/final-delivery-2026/Docs-Guardian-Escolar-full-export.zip) |
 | Web frontend | [GPS-Guardian-Escolar/Fronted-GuardianEscolar-](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-) | Public / Público | Write invitation sent; pending acceptance / Invitación Write enviada; pendiente de aceptación | [`aba17fabb0dd0de7ae329631019f82bf251b6f12`](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/commit/aba17fabb0dd0de7ae329631019f82bf251b6f12) | [Release](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/tag/final-delivery-2026) | [Code ZIP](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/download/final-delivery-2026/Fronted-GuardianEscolar--final-delivery-2026-main.zip) | [Full export ZIP](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/download/final-delivery-2026/Fronted-GuardianEscolar--full-export.zip) |
 
+## Fork final Release / Release final del fork
+
+The final fork Release contains the two ZIP files for each of the five repositories, as required by the delivery guide. / El Release final del fork contiene los dos ZIP de cada uno de los cinco repositorios, como exige la guía de entrega.
+
+[Open the final-delivery-2026 Release in the ADSO fork / Abrir el Release final-delivery-2026 del fork ADSO](https://github.com/Nicolasruiz918/ADSO-3145555/releases/tag/final-delivery-2026)
+
 Before making a repository public, remove `.env` files and change any password, token or key that was ever committed.
 
 Antes de hacer público un repositorio, quite los archivos `.env` y cambie toda contraseña, token o llave que se haya subido alguna vez.
