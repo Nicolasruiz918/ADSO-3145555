@@ -80,13 +80,13 @@ Autorización de datos: al marcar la casilla, el integrante confirma sus datos y
 | [`06-implementation-procedure/`](06-implementation-procedure/)     | Implementation procedure / Procedimiento de implementación  | ☑           |
 | [`07-improvement-actions/`](07-improvement-actions/)               | Improvement actions / Acciones de mejoramiento               | ☑           |
 | [`08-manuals/`](08-manuals/)                                       | Manuals / Manuales                                           | ☑           |
-| [`09-project-article/`](09-project-article/)                       | Project article / Artículo del proyecto                     | ☐           |
+| [`09-project-article/`](09-project-article/)                       | Project article / Artículo del proyecto                     | ☑           |
 | [`10-videos/`](10-videos/)                                         | Videos / Videos                                              | ☐           |
 | [`code-tag/`](code-tag/)                                           | Repository links, tags and ZIP files / Enlaces, tags y ZIP   | ☑           |
 | [`team-roster.md`](team-roster.md)                                 | Team and roles / Equipo y roles                              | ☐           |
 | [`software-registration.md`](software-registration.md)             | Software registration data / Datos para registro de software | ☐           |
 
-The folders `01` to `08` contain the documents copied from `Docs-Guardian-Escolar/14-deliverables/version-2.5.6`. The project article and videos remain pending until their final files and links are available. / Las carpetas `01` a `08` contienen los documentos copiados desde `Docs-Guardian-Escolar/14-deliverables/version-2.5.6`. El artículo del proyecto y los videos permanecen pendientes hasta contar con sus archivos y enlaces finales.
+The folders `01` to `08` contain the documents copied from `Docs-Guardian-Escolar/14-deliverables/version-2.5.6`, and `09-project-article` contains the final academic article from Docs `main`. The videos remain pending until their final files and links are available. / Las carpetas `01` a `08` contienen los documentos copiados desde `Docs-Guardian-Escolar/14-deliverables/version-2.5.6`, y `09-project-article` contiene el artículo académico final de `main` de Docs. Los videos permanecen pendientes hasta contar con sus archivos y enlaces finales.
 
 ## Large files on Google Drive / Archivos pesados en Google Drive
 
