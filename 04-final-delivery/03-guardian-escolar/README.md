@@ -83,10 +83,10 @@ Autorización de datos: al marcar la casilla, el integrante confirma sus datos y
 | [`09-project-article/`](09-project-article/)                       | Project article / Artículo del proyecto                     | ☑           |
 | [`10-videos/`](10-videos/)                                         | Videos / Videos                                              | ☐           |
 | [`code-tag/`](code-tag/)                                           | Repository links, tags and ZIP files / Enlaces, tags y ZIP   | ☑           |
-| [`team-roster.md`](team-roster.md)                                 | Team and roles / Equipo y roles                              | ☐           |
-| [`software-registration.md`](software-registration.md)             | Software registration data / Datos para registro de software | ☐           |
+| [`team-roster.md`](team-roster.md)                                 | Team and roles / Equipo y roles                              | ☑           |
+| [`software-registration.md`](software-registration.md)             | Software registration data / Datos para registro de software | ☑           |
 
-The folders `01` to `08` contain the documents copied from `Docs-Guardian-Escolar/14-deliverables/version-2.5.6`, and `09-project-article` contains the final academic article from Docs `main`. The videos remain pending until their final files and links are available. / Las carpetas `01` a `08` contienen los documentos copiados desde `Docs-Guardian-Escolar/14-deliverables/version-2.5.6`, y `09-project-article` contiene el artículo académico final de `main` de Docs. Los videos permanecen pendientes hasta contar con sus archivos y enlaces finales.
+The folders `01` to `08` contain the documents copied from `Docs-Guardian-Escolar/14-deliverables/version-2.5.6`, and `09-project-article` contains the final academic article from Docs `main`. Only the videos remain pending until their final files and links are available. / Las carpetas `01` a `08` contienen los documentos copiados desde `Docs-Guardian-Escolar/14-deliverables/version-2.5.6`, y `09-project-article` contiene el artículo académico final de `main` de Docs. Solo los videos permanecen pendientes hasta contar con sus archivos y enlaces finales.
 
 ## Large files on Google Drive / Archivos pesados en Google Drive
 
@@ -102,8 +102,8 @@ Aquí solo van archivos demasiado pesados para GitHub, como videos de demostraci
 
 ## Delivery checklist / Lista de verificación de entrega
 
-- [ ] Documentation folders `01`–`10` completed and reviewed / Carpetas `01`–`10` completadas y revisadas.
+- [x] Documentation folders `01`–`09` completed and reviewed / Carpetas `01`–`09` completadas y revisadas.
 - [x] Docs repository promoted to `main` and tagged / Repositorio Docs promovido a `main` y etiquetado.
 - [X] Final Releases created in the five original repositories / Releases finales creados en los cinco repositorios originales.
-- [ ] APK and videos uploaded to Drive and linked above / APK y videos subidos a Drive y enlazados arriba.
+- [ ] Videos uploaded to Drive and linked above / Videos subidos a Drive y enlazados arriba.
 - [X] Apprentice authorizations recorded; instructor Write invitations remain pending acceptance / Autorizaciones de aprendices registradas; las invitaciones Write de instructores siguen pendientes de aceptación.
