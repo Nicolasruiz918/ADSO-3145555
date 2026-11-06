@@ -4,7 +4,7 @@ Two videos are required. / Se requieren dos videos.
 
 | Video | Duration / Duración | Link / Enlace | Done / Listo |
 |---|---|---|---|
-| Advertising pitch / Pitch publicitario | 1 to 2 minutes / 1 a 2 minutos | [Google Drive](https://drive.google.com/drive/folders/14u3zxX-ddNcAEHLpqycsM8n7t68elbN2) | ☑ |
+| Advertising pitch / Pitch publicitario | 1 to 2 minutes / 1 a 2 minutos | [Open pitch video](https://drive.google.com/file/d/1xC4FuJ2W39JVcgzTf8oTY11R09BzXVkW/view?usp=drive_link) | ☑ |
 | Short usage tutorial / Tutorial corto de uso | 3 to 5 minutes / 3 a 5 minutos | [Google Drive](https://drive.google.com/drive/folders/14u3zxX-ddNcAEHLpqycsM8n7t68elbN2) | ☑ |
 
 ## 1. Advertising pitch / Pitch publicitario
