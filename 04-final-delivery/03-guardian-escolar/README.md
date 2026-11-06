@@ -20,9 +20,9 @@ Final delivery of the training project / Entrega final del proyecto formativo.
 | Backend production URL / URL backend de producción            | [GPS Guardian Escolar API](https://gps-guardian-escolar-backend.onrender.com)                                                                                                                                                                                                                                                                               |
 | API health endpoint / Endpoint de salud                        | `https://gps-guardian-escolar-backend.onrender.com/api/health` — verify availability before final submission / verificar disponibilidad antes de la entrega final                                                                                                                                                                                       |
 | Android APK / APK Android                                      | [Download from Frontend Release](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/download/final-delivery-2026/GPS-Guardian-Escolar-v1.0.1.apk) / [Descargar desde el Release del frontend](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/download/final-delivery-2026/GPS-Guardian-Escolar-v1.0.1.apk) |
-| Video 1 — Advertising pitch / Pitch publicitario              | [Open pitch video](https://drive.google.com/file/d/1xC4FuJ2W39JVcgzTf8oTY11R09BzXVkW/view?usp=drive_link) |
+| Video 1 — Advertising pitch / Pitch publicitario              | [Open pitch video](https://drive.google.com/file/d/1xC4FuJ2W39JVcgzTf8oTY11R09BzXVkW/view?usp=drive_link)                                                                                                                                                                                                                                                   |
 | Video 2 — Short usage tutorial / Tutorial corto de uso        | Link to be added in `10-videos/README.md` after upload / Enlace por agregar en `10-videos/README.md` después de subirlo                                                                                                                                                                                                                               |
-| Official Google Drive folder / Carpeta oficial de Google Drive | Link to be added after the team creates the shared folder / Enlace por agregar cuando el equipo cree la carpeta compartida                                                                                                                                                                                                                                 |
+| Official Google Drive folder / Carpeta oficial de Google Drive | [drive.google.com/drive/folders/15ib4ov5jNNtGDajfvQ5s4cRe7DwsGrPm?usp=drive_link](https://drive.google.com/drive/folders/15ib4ov5jNNtGDajfvQ5s4cRe7DwsGrPm?usp=drive_link)                                                                                                                                                                                  |
 
 ## Summary / Resumen
 
@@ -97,13 +97,13 @@ Aquí solo van archivos demasiado pesados para GitHub, como videos de demostraci
 | File / Archivo                                  | Size / Tamaño  | Link / Enlace                                                                                                                                                    |
 | ----------------------------------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Android APK `GPS-Guardian-Escolar-v1.0.1.apk` | More than 50 MB | [GitHub Release download](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/download/final-delivery-2026/GPS-Guardian-Escolar-v1.0.1.apk) |
-| Advertising pitch                               | 1–2 minutes    | [Open pitch video](https://drive.google.com/file/d/1xC4FuJ2W39JVcgzTf8oTY11R09BzXVkW/view?usp=drive_link) |
-| Short usage tutorial                            | 3–5 minutes    | [Google Drive video folder](https://drive.google.com/drive/folders/14u3zxX-ddNcAEHLpqycsM8n7t68elbN2) |
+| Advertising pitch                               | 1–2 minutes    | [Open pitch video](https://drive.google.com/file/d/1xC4FuJ2W39JVcgzTf8oTY11R09BzXVkW/view?usp=drive_link)                                                         |
+| Short usage tutorial                            | 3–5 minutes    | [Google Drive video folder](https://drive.google.com/drive/folders/14u3zxX-ddNcAEHLpqycsM8n7t68elbN2)                                                             |
 
 ## Delivery checklist / Lista de verificación de entrega
 
-- [x] Documentation folders `01`–`09` completed and reviewed / Carpetas `01`–`09` completadas y revisadas.
-- [x] Docs repository promoted to `main` and tagged / Repositorio Docs promovido a `main` y etiquetado.
+- [X] Documentation folders `01`–`09` completed and reviewed / Carpetas `01`–`09` completadas y revisadas.
+- [X] Docs repository promoted to `main` and tagged / Repositorio Docs promovido a `main` y etiquetado.
 - [X] Final Releases created in the five original repositories / Releases finales creados en los cinco repositorios originales.
-- [x] Videos uploaded to Drive and linked above / Videos subidos a Drive y enlazados arriba.
+- [X] Videos uploaded to Drive and linked above / Videos subidos a Drive y enlazados arriba.
 - [X] Apprentice authorizations recorded; instructor Write invitations remain pending acceptance / Autorizaciones de aprendices registradas; las invitaciones Write de instructores siguen pendientes de aceptación.
