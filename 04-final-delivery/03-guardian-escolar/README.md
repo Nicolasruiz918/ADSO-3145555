@@ -19,10 +19,10 @@ Final delivery of the training project / Entrega final del proyecto formativo.
 | Web production URL / URL web de producción | [GPS Guardian Escolar](https://gps-guardian-escolar-frontend.onrender.com) |
 | Backend production URL / URL backend de producción | [GPS Guardian Escolar API](https://gps-guardian-escolar-backend.onrender.com) |
 | API health endpoint / Endpoint de salud | `https://gps-guardian-escolar-backend.onrender.com/api/health` — verify availability before final submission / verificar disponibilidad antes de la entrega final |
-| Android APK / APK Android | Pending Drive upload; the APK is larger than 50 MB / Pendiente de subir a Drive; la APK supera 50 MB |
-| Video 1 — Advertising pitch / Pitch publicitario | Pending link in `10-videos/README.md` / Pendiente de enlace en `10-videos/README.md` |
-| Video 2 — Short usage tutorial / Tutorial corto de uso | Pending link in `10-videos/README.md` / Pendiente de enlace en `10-videos/README.md` |
-| Official Google Drive folder / Carpeta oficial de Google Drive | Pending folder creation / Pendiente de crear |
+| Android APK / APK Android | [Download from Frontend Release](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/download/final-delivery-2026/GPS-Guardian-Escolar-v1.0.1.apk) / [Descargar desde el Release del frontend](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/download/final-delivery-2026/GPS-Guardian-Escolar-v1.0.1.apk) |
+| Video 1 — Advertising pitch / Pitch publicitario | Link to be added in `10-videos/README.md` after upload / Enlace por agregar en `10-videos/README.md` después de subirlo |
+| Video 2 — Short usage tutorial / Tutorial corto de uso | Link to be added in `10-videos/README.md` after upload / Enlace por agregar en `10-videos/README.md` después de subirlo |
+| Official Google Drive folder / Carpeta oficial de Google Drive | Link to be added after the team creates the shared folder / Enlace por agregar cuando el equipo cree la carpeta compartida |
 
 ## Summary / Resumen
 
@@ -50,7 +50,7 @@ The web frontend is deployed on Render and uses the backend service through its 
 
 El frontend web está desplegado en Render y utiliza el backend mediante las variables de proxy/API configuradas. La URL anterior es la referencia pública del servicio; la disponibilidad de los endpoints debe verificarse nuevamente antes de entregar.
 
-The APK, pitch video and usage tutorial will be linked from the official Drive folder once the files are uploaded. / La APK, el pitch y el tutorial de uso se enlazarán desde la carpeta oficial de Drive cuando se suban los archivos.
+The APK is available from the public Frontend Release. The pitch video, usage tutorial and official Drive folder still require the team's final links. / La APK está disponible desde el Release público del frontend. El pitch, el tutorial y la carpeta oficial de Drive todavía requieren los enlaces finales del equipo.
 
 ## Team members / Integrantes
 
@@ -82,7 +82,7 @@ Autorización de datos: al marcar la casilla, el integrante confirma sus datos y
 | [`08-manuals/`](08-manuals/) | Manuals / Manuales | ☐ |
 | [`09-project-article/`](09-project-article/) | Project article / Artículo del proyecto | ☐ |
 | [`10-videos/`](10-videos/) | Videos / Videos | ☐ |
-| [`code-tag/`](code-tag/) | Repository links, tags and ZIP files / Enlaces, tags y ZIP | ☐ Release pending |
+| [`code-tag/`](code-tag/) | Repository links, tags and ZIP files / Enlaces, tags y ZIP | ☑ |
 | [`team-roster.md`](team-roster.md) | Team and roles / Equipo y roles | ☐ |
 | [`software-registration.md`](software-registration.md) | Software registration data / Datos para registro de software | ☐ |
 
@@ -96,14 +96,14 @@ Aquí solo van archivos demasiado pesados para GitHub, como videos de demostraci
 
 | File / Archivo | Size / Tamaño | Link / Enlace |
 |---|---|---|
-| Android APK `GPS-Guardian-Escolar-v1.0.1.apk` | More than 50 MB | Pending Drive upload / Pendiente de subir a Drive |
-| Advertising pitch | 1–2 minutes | Pending link in `10-videos/README.md` / Pendiente de enlace en `10-videos/README.md` |
-| Short usage tutorial | 3–5 minutes | Pending link in `10-videos/README.md` / Pendiente de enlace en `10-videos/README.md` |
+| Android APK `GPS-Guardian-Escolar-v1.0.1.apk` | More than 50 MB | [GitHub Release download](https://github.com/GPS-Guardian-Escolar/Fronted-GuardianEscolar-/releases/download/final-delivery-2026/GPS-Guardian-Escolar-v1.0.1.apk) |
+| Advertising pitch | 1–2 minutes | Team link required in `10-videos/README.md` / Falta el enlace del equipo en `10-videos/README.md` |
+| Short usage tutorial | 3–5 minutes | Team link required in `10-videos/README.md` / Falta el enlace del equipo en `10-videos/README.md` |
 
 ## Delivery checklist / Lista de verificación de entrega
 
 - [ ] Documentation folders `01`–`10` completed and reviewed / Carpetas `01`–`10` completadas y revisadas.
 - [ ] Docs repository promoted to `main` and tagged / Repositorio Docs promovido a `main` y etiquetado.
-- [ ] Final ZIP Release created in the `ADSO-3145555` fork / Release final creado en el fork `ADSO-3145555`.
+- [x] Final Releases created in the five original repositories / Releases finales creados en los cinco repositorios originales.
 - [ ] APK and videos uploaded to Drive and linked above / APK y videos subidos a Drive y enlazados arriba.
-- [ ] Team authorizations and instructor access confirmed / Autorizaciones del equipo y acceso del instructor confirmados.
+- [x] Apprentice authorizations recorded; instructor Write invitations remain pending acceptance / Autorizaciones de aprendices registradas; las invitaciones Write de instructores siguen pendientes de aceptación.
