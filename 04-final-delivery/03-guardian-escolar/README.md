@@ -52,7 +52,7 @@ El frontend web está desplegado en Render y utiliza el backend mediante las var
 
 The APK, advertising pitch, usage tutorial and official Drive folder are linked above. / La APK, el pitch publicitario, el tutorial de uso y la carpeta oficial de Drive están enlazados arriba.
 
-The documents in folders `01`–`09` are provided as editable `.docx` source files together with their PDF exports required by the delivery guide. No separate Canva design was used; the PDF technical design document in `04-software-design` is the official design deliverable. / Los documentos de las carpetas `01`–`09` se entregan como archivos fuente editables `.docx` junto con sus exportaciones PDF exigidas por la guía. No se utilizó un diseño separado en Canva; el PDF técnico de diseño en `04-software-design` es el entregable oficial.
+The documents in folders `01`–`09` are delivered only in the final PDF format required by the delivery guide. No separate Canva design was used; the PDF technical design document in `04-software-design` is the official design deliverable. / Los documentos de las carpetas `01`–`09` se entregan únicamente en el formato PDF final exigido por la guía. No se utilizó un diseño separado en Canva; el PDF técnico de diseño en `04-software-design` es el entregable oficial.
 
 ## Team members / Integrantes
 
