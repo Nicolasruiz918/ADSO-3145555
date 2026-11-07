@@ -52,7 +52,7 @@ El frontend web está desplegado en Render y utiliza el backend mediante las var
 
 The APK, advertising pitch, usage tutorial and official Drive folder are linked above. / La APK, el pitch publicitario, el tutorial de uso y la carpeta oficial de Drive están enlazados arriba.
 
-The documents in folders `01`–`09` are currently provided as editable `.docx` source files. The final submission must also include the corresponding PDF exports required by the delivery guide, including the Canva design exported to PDF in `04-software-design`. / Los documentos de las carpetas `01`–`09` se entregan actualmente como archivos fuente editables `.docx`. La entrega final también debe incluir las exportaciones PDF correspondientes exigidas por la guía, incluido el diseño de Canva exportado a PDF dentro de `04-software-design`.
+The documents in folders `01`–`09` are provided as editable `.docx` source files together with their PDF exports required by the delivery guide. The software-design folder includes the final PDF version of the design document. / Los documentos de las carpetas `01`–`09` se entregan como archivos fuente editables `.docx` junto con sus exportaciones PDF exigidas por la guía. La carpeta de diseño de software incluye la versión PDF final del documento de diseño.
 
 ## Team members / Integrantes
 
@@ -104,7 +104,7 @@ Aquí solo van archivos demasiado pesados para GitHub, como videos de demostraci
 
 ## Delivery checklist / Lista de verificación de entrega
 
-- [ ] Documentation folders `01`–`09` exported to the required final PDF format and reviewed / Carpetas `01`–`09` exportadas al formato PDF final requerido y revisadas.
+- [X] Documentation folders `01`–`09` exported to the required final PDF format and reviewed / Carpetas `01`–`09` exportadas al formato PDF final requerido y revisadas.
 - [X] Docs repository promoted to `main` and tagged / Repositorio Docs promovido a `main` y etiquetado.
 - [X] Final Releases created in the five original repositories / Releases finales creados en los cinco repositorios originales.
 - [X] Videos uploaded to Drive and linked above / Videos subidos a Drive y enlazados arriba.
