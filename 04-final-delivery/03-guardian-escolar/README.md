@@ -50,7 +50,9 @@ The web frontend is deployed on Render and uses the backend service through its 
 
 El frontend web está desplegado en Render y utiliza el backend mediante las variables de proxy/API configuradas. La URL anterior es la referencia pública del servicio; la disponibilidad de los endpoints debe verificarse nuevamente antes de entregar.
 
-The APK is available from the public Frontend Release. The pitch video, usage tutorial and official Drive folder still require the team's final links. / La APK está disponible desde el Release público del frontend. El pitch, el tutorial y la carpeta oficial de Drive todavía requieren los enlaces finales del equipo.
+The APK, advertising pitch, usage tutorial and official Drive folder are linked above. / La APK, el pitch publicitario, el tutorial de uso y la carpeta oficial de Drive están enlazados arriba.
+
+The documents in folders `01`–`09` are currently provided as editable `.docx` source files. The final submission must also include the corresponding PDF exports required by the delivery guide, including the Canva design exported to PDF in `04-software-design`. / Los documentos de las carpetas `01`–`09` se entregan actualmente como archivos fuente editables `.docx`. La entrega final también debe incluir las exportaciones PDF correspondientes exigidas por la guía, incluido el diseño de Canva exportado a PDF dentro de `04-software-design`.
 
 ## Team members / Integrantes
 
@@ -102,7 +104,7 @@ Aquí solo van archivos demasiado pesados para GitHub, como videos de demostraci
 
 ## Delivery checklist / Lista de verificación de entrega
 
-- [X] Documentation folders `01`–`09` completed and reviewed / Carpetas `01`–`09` completadas y revisadas.
+- [ ] Documentation folders `01`–`09` exported to the required final PDF format and reviewed / Carpetas `01`–`09` exportadas al formato PDF final requerido y revisadas.
 - [X] Docs repository promoted to `main` and tagged / Repositorio Docs promovido a `main` y etiquetado.
 - [X] Final Releases created in the five original repositories / Releases finales creados en los cinco repositorios originales.
 - [X] Videos uploaded to Drive and linked above / Videos subidos a Drive y enlazados arriba.

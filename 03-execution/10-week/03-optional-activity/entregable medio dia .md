@@ -1,1 +1,0 @@
-link repositorio https://github.com/Nicolasruiz918/Evaluacion_Conocimientos.git
